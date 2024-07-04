@@ -1,0 +1,23 @@
+/* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --font-inter: Inter;
+  --font-pressStart2P: PressStart2P;
+  --font-weight-main-text: 400;
+  --font-weight-title-text: 700;
+  --background-color: rgba(255, 255, 255, 1);
+  --accent-color: rgba(0, 0, 0, 1);
+  --background-image: repeating-linear-gradient(
+      to right,
+      #d3d3d3 0 2px,
+      transparent 2px 4px
+    ),
+    repeating-linear-gradient(to bottom, #d3d3d3 0 2px, transparent 2px 4px),
+    linear-gradient(to bottom, #e7e7e7 0.01%, #1a1a1a);
+  --image-label-stroke: rgba(255, 255, 255, 1);
+  --heart-sparks: rgba(255, 0, 0, 1);
+  --heart-contour: rgba(0, 0, 0, 1);
+  --header-background-color: rgba(255, 255, 255, 1);
+  --card-background-color: rgba(255, 255, 255, 1);
+  --like-button-background-color: rgba(255, 255, 255, 1);
+  --like-button-text-color: rgba(255, 255, 255, 1);
+}
